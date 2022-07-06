@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,19 +17,49 @@
 </head>
 <body class="bg-[#FFFCF7] text-[#262626] font-body">
 
+    <!--Navigation-->
+
+    <nav class="fixed z-50 top-0 left-0 right-0 px-[5vw] py-5 flex justify-between items-center">
+        <img class="w-10" src="./images/logo.png" alt="">
+        <a class="bg-white hover:bg-yellow-300 transition-all px-3 py-1 border-solid border-dark border-2 text-xs font-display shadow-[3px_3px_rgba(0,0,0,1)] hover:shadow-[1px_1px_rgba(0,0,0,1)]" href="#contact">Get in touch!</a>
+    </nav>
+
+    <!--Hero Section Start-->
+
+    <section class="h-screen bg-brand relative flex items-center justify-center text-light">
+
+        <!--Main Composition-->
+
+        <div class="flex flex-col items-center z-30">
+            <div>
+                <h4 class="font-display text-xl">We are</h4>
+                <h1 class="font-thunder text-7xl">PRIMAL INK.</h1>
+            </div>
+            <img class="w-52 -translate-y-10" src="./images/primalike.png" alt="Cool Chimp">
+        </div>
+
+         <!--Backgrounds-->
+
+         <div class="absolute bottom-0 left-0 right-0 top-0 bg-cover" style="background-image: url(./images/colors.png);"></div>
+         <div class="absolute bottom-0 left-0 right-0 top-0 bg-cover mix-blend-multiply" style="background-image: url(./images/paper.jpg);"></div>
+
+    </section>
+
+    <!--Hero Section End-->
+
     <!--About Section Start-->
 
-    <div class="px-[5vw] pb-32 pt-60">
+    <section class="px-[5vw] pb-32 pt-60">
         <h1 class="font-display text-3xl text-center mb-10">We make great brands look amazing</h1>
         <p class="text-sm leading-loose">We are a multidisciplinary Design Studio specialized in the creation and optimization of <span>Brand Identities</span> and <span>User Experiences.</span><br><br>
         We aim to <span>Help Great Brands</span> by creatively telling their stories and helping them expand their reach through <span>Unique Design Solutions.</span></p>
-    </div>
+    </section>
 
     <!--About Section End-->
 
     <!--Services Section Start-->
 
-    <div class="px-[5vw] py-32">
+    <section class="px-[5vw] py-32">
         <h2 class="font-display text-2xl mb-16">Our main services</h2>
 
         <!--Service #1-->
@@ -83,13 +113,13 @@
             </div>
         </div>
         <div class="w-full h-[1px] bg-black"></div>
-    </div>
+    </section>
 
     <!--Services Section End-->
 
     <!--Projects Section Start-->
 
-    <div class="px-[5vw] py-32 bg-shell">
+    <section class="px-[5vw] py-32 bg-shell">
         <h2 class="font-display text-2xl mb-16">Some recent projects</h2>
 
         <div>
@@ -112,7 +142,7 @@
                     <!--Button-->
                     
                     <a class="bg-white hover:bg-yellow-300 transition-all px-4 py-2 border-solid border-dark border-2 text-xs font-display shadow-[3px_3px_rgba(0,0,0,1)]
-                    hover:shadow-[1px_1px_rgba(0,0,0,1)]" href="">Visit social media</a>
+                    hover:shadow-[1px_1px_rgba(0,0,0,1)]" href="https://www.instagram.com/doblerre_bakery/" target="_blank">Visit social media</a>
                 </div>
             </div>
 
@@ -134,7 +164,7 @@
                     <!--Button-->
                     
                     <a class="bg-white hover:bg-yellow-300 transition-all px-4 py-2 border-solid border-dark border-2 text-xs font-display shadow-[3px_3px_rgba(0,0,0,1)]
-                    hover:shadow-[1px_1px_rgba(0,0,0,1)]" href="">Visit live site</a>
+                    hover:shadow-[1px_1px_rgba(0,0,0,1)]" href="https://enchiladasinc.com" target="_blank">Visit live site</a>
                 </div>
             </div>
 
@@ -156,21 +186,17 @@
                     <!--Button-->
 
                     <a class="bg-white hover:bg-yellow-300 transition-all px-4 py-2 border-solid border-dark border-2 text-xs font-display shadow-[3px_3px_rgba(0,0,0,1)]
-                    hover:shadow-[1px_1px_rgba(0,0,0,1)]" href="">Visit live site</a>
+                    hover:shadow-[1px_1px_rgba(0,0,0,1)]" href="https://lapostreria77.com" target="_blank">Visit live site</a>
                 </div>
             </div>
-
         </div>
-
-        
-
-    </div>
+    </section>
 
     <!--Projects Section End-->
 
     <!--Contact Section Start-->
 
-    <div class="px-[5vw] py-32">
+    <section class="px-[5vw] py-32" id="contact">
         <h2 class="font-display text-2xl mb-16">Contact Us</h2>
 
         <!--Message-->
@@ -185,10 +211,10 @@
         <div class="pb-10">
             <h4 class="font-semibold mb-4">Business Contact</h4>
             <div class="mb-4">
-                <span class="text-sm">Email:</span> <a class="text-xs underline decoration-solid decoration-dark" href="">primalinkstudios@gmail.com</a>
+                <span class="text-sm">Email:</span> <a class="text-xs underline decoration-solid decoration-dark" href="mailto:primalinkstudios@gmail.com">primalinkstudios@gmail.com</a>
             </div>
             <div class="mb-4">
-                <span class="text-sm">Phone:</span> <a class="text-xs underline decoration-solid decoration-dark" href="">(+52) 998 373-6200</a>
+                <span class="text-sm">Phone:</span> <a class="text-xs underline decoration-solid decoration-dark" href="tel:9983736200">(+52) 998 373-6200</a>
             </div>
         </div>
 
@@ -197,22 +223,22 @@
         <div class="pb-10">
             <h4 class="font-semibold mb-4">Social Media</h4>
             <div class="mb-4">
-                <span class="text-sm">Instagram:</span> <a class="text-xs underline decoration-solid decoration-dark" href="">primalink.studios</a>
+                <span class="text-sm">Instagram:</span> <a class="text-xs underline decoration-solid decoration-dark" href="https://www.instagram.com/primalink.studio/" target="_blank">primalink.studios</a>
             </div>
             <div class="mb-4">
                 <span class="text-sm">LinkedIn:</span> <a class="text-xs underline decoration-solid decoration-dark" href="">Primal Ink.</a>
             </div>
         </div>
-    </div>
+    </section>
 
     <!--Contact Section End-->
 
     <!--Footer Start-->
 
-    <div class="px-[5vw] pb-5">
+    <footer class="px-[5vw] pb-5">
         <div class="w-full h-[1px] bg-black mb-5"></div>
         <p class="font-semibold text-xs italic">Primal Ink. Studios&reg; 2022. All rights reserved.</p>
-    </div>
+    </footer>
     
     <!--Footer End-->
 
